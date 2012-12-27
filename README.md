@@ -12,7 +12,8 @@ Installation
 2. Copy corresponding files from this directory to their places
 3. In "Text Input" settings - set "English" keyboard
 4. For screen keyboard - add second keyboard Russian
-5. From xterm - enter "setxkbmap ru_custom"
+5. In xterm - enter "setxkbmap ru_custom" - to try
+6. For permanent - enter "gconftool-2 -s -t string /apps/osso/inputmethod/int_kb_layout ru_custom"
 
 Usage
 -----
