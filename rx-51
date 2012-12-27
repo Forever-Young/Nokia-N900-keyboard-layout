@@ -532,58 +532,63 @@ xkb_symbols "ru_custom" {
     key <AB07>	{ [	m,		M,		apostrophe,	grave           ] };
     key <SPCE>	{ [	space,		ISO_Next_Group,	at,		at		] };
 
-    // Russian
-    // 1. row
-    key <AD01>	{ symbols[Group2]=[	Cyrillic_shorti,	Cyrillic_SHORTI,	1,			1			] };
-    key <AD02>	{ symbols[Group2]=[	Cyrillic_tse,		Cyrillic_TSE,		2,			2			] };
-    key <AD03>	{ symbols[Group2]=[	Cyrillic_u,		Cyrillic_U,		3,			3			] };
-    key <AD04>	{ symbols[Group2]=[	Cyrillic_ka,		Cyrillic_KA,		4,			4			] };
-    key <AD05>	{ symbols[Group2]=[	Cyrillic_ie,		Cyrillic_IE,		5,			5			] };
-    key <AD06>	{ symbols[Group2]=[	Cyrillic_en,		Cyrillic_EN,		6,			6			] };
-    key <AD07>	{ symbols[Group2]=[	Cyrillic_ghe,		Cyrillic_GHE,		7,			7			] };
-    key <AD08>	{ symbols[Group2]=[	Cyrillic_sha,		Cyrillic_SHA,		8,			8			] };
-    key <AD09>	{ symbols[Group2]=[	Cyrillic_shcha,		Cyrillic_SHCHA,		9,			9			] };
-    key <AD10>	{ symbols[Group2]=[	Cyrillic_ze,		Cyrillic_ZE,		0,			0			] };
-    key <AB08>   {
-        type[Group2]="FOUR_LEVEL_FIXED",
-        symbols[Group2]=[ Cyrillic_ha, Cyrillic_HA, Cyrillic_hardsign, Cyrillic_HARDSIGN	]
-        };
-
-    // 2. row
-    key <AC01>	{ symbols[Group2]=[     Cyrillic_ef,		Cyrillic_EF,		asterisk,		asterisk		] };
-    key <AC02>	{ symbols[Group2]=[	Cyrillic_yeru,		Cyrillic_YERU,		plus,			plus			] };
-    key <AC03>	{ symbols[Group2]=[     Cyrillic_ve,		Cyrillic_VE,		numbersign,		numbersign		] };
-    key <AC04>	{ symbols[Group2]=[	Cyrillic_a,		Cyrillic_A,		minus,			minus			] };
-    key <AC05>	{ symbols[Group2]=[     Cyrillic_pe,		Cyrillic_PE,		underscore,		underscore		] };
-    key <AC06>	{ symbols[Group2]=[	Cyrillic_er,		Cyrillic_ER,		exclam,			exclam			] };
-    key <AC07>	{ symbols[Group2]=[     Cyrillic_o,		Cyrillic_O,		question,		question		] };
-    key <AC08>	{ symbols[Group2]=[     Cyrillic_el,		Cyrillic_EL,		semicolon,		semicolon		] };
-    key <AC09>	{ symbols[Group2]=[	Cyrillic_de,		Cyrillic_DE,		colon,			colon			] };
-    key <AB09>	{ symbols[Group2]=[	Cyrillic_zhe,		Cyrillic_ZHE,		comma,			comma			] };
-
-    // 3. row
-    key <AB01>	{ symbols[Group2]=[	Cyrillic_ya,		Cyrillic_YA,		dollar,			dollar			] };
-    key <AB02>	{ symbols[Group2]=[     Cyrillic_che,		Cyrillic_CHE,		EuroSign,		EuroSign		] };
-    key <AB03>	{ symbols[Group2]=[	Cyrillic_es,		Cyrillic_ES,		slash,			slash			] };
-    key <AB04>	{ symbols[Group2]=[     Cyrillic_em,		Cyrillic_EM,		parenleft,		parenleft		] };
-    key <AB05>	{ symbols[Group2]=[     Cyrillic_i,		Cyrillic_I,		parenright,		parenright		] };
-    key <AB06>	{ symbols[Group2]=[     Cyrillic_te,		Cyrillic_TE,		quotedbl,		quotedbl		] };
-    key <AB07>	{ symbols[Group2]=[     Cyrillic_softsign,	Cyrillic_SOFTSIGN,	apostrophe,		apostrophe		] };
-
     key <UP>	{
         type[Group1] = "PC_FN_LEVEL2",
-        symbols[Group1] = [	Up,   Prior	],
-        type[Group2] = "FOUR_LEVEL_FIXED",
-        symbols[Group2] = [ Cyrillic_e, Cyrillic_E, period, comma ]
+        symbols[Group1] = [	Up,   Prior	]
         };
     key <LEFT>	{
         type[Group1] = "PC_FN_LEVEL2",
-        symbols[Group1] = [	Left,   Home	],
-        type[Group2] = "FOUR_LEVEL_FIXED",
-        symbols[Group2] = [ Cyrillic_be, Cyrillic_BE, Cyrillic_yu, Cyrillic_YU ]
+        symbols[Group1] = [	Left,   Home	]
         };
     key <DOWN>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Down,   Next	] };
     key <RGHT>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Right,  End	] };
+
+    // Russian
+    // 1. row
+    key <AD01>	{ symbols[Group2]=[ Cyrillic_shorti, Cyrillic_SHORTI,	1,      F1 ] };
+    key <AD02>	{ symbols[Group2]=[ Cyrillic_tse,    Cyrillic_TSE,      2,      F2 ] };
+    key <AD03>	{ symbols[Group2]=[ Cyrillic_u,      Cyrillic_U,        3,      F3 ] };
+    key <AD04>	{ symbols[Group2]=[ Cyrillic_ka,     Cyrillic_KA,       4,      F4 ] };
+    key <AD05>	{ symbols[Group2]=[ Cyrillic_ie,     Cyrillic_IE,       5,      F5 ] };
+    key <AD06>	{ symbols[Group2]=[ Cyrillic_en,     Cyrillic_EN,       6,      F6 ] };
+    key <AD07>	{ symbols[Group2]=[ Cyrillic_ghe,    Cyrillic_GHE,      7,      F7 ] };
+    key <AD08>	{ symbols[Group2]=[ Cyrillic_sha,    Cyrillic_SHA,      8,      F8 ] };
+    key <AD09>	{ symbols[Group2]=[ Cyrillic_shcha,  Cyrillic_SHCHA,    9,      F9 ] };
+    key <AD10>	{ symbols[Group2]=[ Cyrillic_ze,     Cyrillic_ZE,       0,      F10 ] };
+    key <AB08>  { symbols[Group2]=[ Cyrillic_ha,     Cyrillic_HA,       Cyrillic_hardsign, Cyrillic_HARDSIGN ],
+        type[Group2]="FOUR_LEVEL_FIXED" };
+
+    // 2. row
+    key <AC01>	{ symbols[Group2]=[ Cyrillic_ef,        Cyrillic_EF,    asterisk,       asterisk   ] };
+    key <AC02>	{ symbols[Group2]=[ Cyrillic_yeru,      Cyrillic_YERU,  plus,           plus       ] };
+    key <AC03>	{ symbols[Group2]=[ Cyrillic_ve,        Cyrillic_VE,    numbersign,     numbersign ] };
+    key <AC04>	{ symbols[Group2]=[ Cyrillic_a,         Cyrillic_A,     minus,          minus      ] };
+    key <AC05>	{ symbols[Group2]=[ Cyrillic_pe,        Cyrillic_PE,    underscore,     underscore ] };
+    key <AC06>	{ symbols[Group2]=[ Cyrillic_er,        Cyrillic_ER,    parenleft,      dead_tilde ] };
+    key <AC07>	{ symbols[Group2]=[ Cyrillic_o,         Cyrillic_O,     parenright,     braceleft  ] };
+    key <AC08>	{ symbols[Group2]=[ Cyrillic_el,        Cyrillic_EL,    ampersand,      braceright ] };
+    key <AC09>	{ symbols[Group2]=[ Cyrillic_de,        Cyrillic_DE,    exclam,         exclam     ] };
+    key <AB09>	{ symbols[Group2]=[ Cyrillic_zhe,       Cyrillic_ZHE,   question,       colon      ] };
+    key <UP>	{ symbols[Group2]=[ Cyrillic_e,         Cyrillic_E,     period,         comma      ],
+        type[Group2] = "FOUR_LEVEL_SEMIALPHABETIC" };
+
+    // 3. row
+    key <AB01>	{ [	z,		Z,		bracketleft,	none    	] };
+    key <AB02>	{ [	x,		X,		dollar,		none		] };
+    key <AB03>	{ [	c,		C,		bracketright,	asciicircum	] };
+    key <AB04>	{ [	v,		V,		slash,		less		] };
+    key <AB05>	{ [	b,		B,		backslash,	greater         ] };
+    key <AB06>	{ [	n,		N,		quotedbl,	percent         ] };
+    key <AB07>	{ [	m,		M,		apostrophe,	grave           ] };
+    key <AB01>	{ symbols[Group2]=[ Cyrillic_ya,        Cyrillic_YA,       bracketleft,    none        ] };
+    key <AB02>	{ symbols[Group2]=[ Cyrillic_che,       Cyrillic_CHE,      dollar,         none        ] };
+    key <AB03>	{ symbols[Group2]=[ Cyrillic_es,        Cyrillic_ES,       bracketright,   asciicircum ] };
+    key <AB04>	{ symbols[Group2]=[ Cyrillic_em,        Cyrillic_EM,       slash,          less        ] };
+    key <AB05>	{ symbols[Group2]=[ Cyrillic_i,         Cyrillic_I,        backslash,      greater     ] };
+    key <AB06>	{ symbols[Group2]=[ Cyrillic_te,        Cyrillic_TE,       quotedbl,       percent     ] };
+    key <AB07>	{ symbols[Group2]=[ Cyrillic_softsign,  Cyrillic_SOFTSIGN, apostrophe,     grave       ] };
+    key <LEFT>	{ symbols[Group2]=[ Cyrillic_be,        Cyrillic_BE,       Cyrillic_yu,    Cyrillic_YU ],
+        type[Group2] = "FOUR_LEVEL_FIXED" };
 
     key <DOWN>	{ type[Group2] = "PC_FN_LEVEL2", symbols[Group2] = [	Left,	Up	] };
     key <RGHT>	{ type[Group2] = "PC_FN_LEVEL2", symbols[Group2] = [	Right,	Down	] };

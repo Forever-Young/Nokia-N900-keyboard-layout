@@ -12,8 +12,8 @@ Installation
 2. Copy corresponding files from this directory to their places
 3. In "Text Input" settings - set "English" keyboard
 4. For screen keyboard - add second keyboard Russian
-5. In xterm - enter "setxkbmap ru_custom" - to try
-6. For permanent - enter "gconftool-2 -s -t string /apps/osso/inputmethod/int_kb_layout ru_custom"
+5. In xterm - type "setxkbmap ru_custom" - to try
+6. For permanent - type "gconftool-2 -s -t string /apps/osso/inputmethod/int_kb_layout ru_custom"
 
 Usage
 -----
@@ -25,9 +25,12 @@ Changes
 2. Changed many Fn-SH combinations: digits to F1-F10, letters
 3. Tab, ESC, Menu
 4. Fn+Cursor - Home/End/PgUp/PgDn
-5. For russian layout - combined Left/Up, Right/Down
-6. For russian layout - letters on the same place as on Russian hardware variant
-7. For russian layout - fixed capital hardsign, yu
+5. For russian layout
+   - combined Left/Up, Right/Down
+   - letters on the same place as on Russian layout
+   - fixed capital hardsign, yu
+   - period and comma - Fn+Up, Shift+Fn+Up
+   - question and colon - Fn+LatComma, Shift+Fn+LatComma
 
 Layout (English)
 ----------------
@@ -50,12 +53,32 @@ Layout (English)
 |-------+----+----+----+----+----+----+----+---------+----+----+-----|
 </pre>
 
+Layout (Russian)
+----------------
+<pre>
+|-------+----+----+----+----+----+----+----+----+----+----+----+-----|
+| Fn+SH | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10| Ъ  | F12 |
+| Fn    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | ъ  | Tab |
+| SHIFT | Й  | Ц  | У  | К  | Е  | Н  | Г  | Г  | Ш  | З  | Х  | Del |
+|       | й  | ц  | у  | к  | е  | н  | г  | г  | ш  | з  | х  | BKSP|
+|-------+----+----+----+----+----+----+----+----+----+----+----+-----|
+| Fn+SH | *  | +  | #  | -  | _  | ~  | {  | }  | !  | :  | ,  | MENU|
+| Fn    | *  | +  | #  | -  | _  | (  | )  | &  | !  | ?  | .  | ESC |
+| SHIFT | Ф  | Ы  | В  | А  | П  | Р  | О  | Л  | Ж  | Ж  | Э  | RET |
+|       | ф  | ы  | в  | а  | п  | р  | о  | л  | д  | ж  | э  | RET |
+|-------+----+----+----+----+----+----+----+----+----+----+----+-----|
+| Fn+SH |none|none| ^  | <  | >  | %  | `  |   @     | Ю  |    |     |
+| Fn    | [  | $  | ]  | /  | \  | "  | '  |   @     | ю  | Up | Down|
+| SHIFT | Я  | Ч  | С  | М  | И  | Т  | Ь  | Layout  | Б  |    |     |
+|       | я  | ч  | с  | м  | и  | т  | ь  |   SPC   | б  |Left|Right|
+|-------+----+----+----+----+----+----+----+---------+----+----+-----|
+</pre>
+
 TODO
 ----
 1. Fix Fn-SH-h - dead_tilde
 2. Something for Fn-SH-a, s, d, f, g, l?
 3. Keyboard layout applet for status-menu
-4. Same marks for Russian layout
 
 Credits
 -------
