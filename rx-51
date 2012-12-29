@@ -510,7 +510,7 @@ xkb_symbols "ru_custom" {
     key <BKSP>	{ [	BackSpace,	Tab,            KP_Delete,      F12             ] };
 
     // 2. row
-    key <AC01>	{ [	a,		A,		asterisk,	asterisk	] };
+    key <AC01>	{ [	a,		A,		asterisk,	period  	] };
     key <AC02>	{ [	s,		S,		plus,		plus		] };
     key <AC03>	{ [	d,		D,		numbersign,	numbersign	] };
     key <AC04>	{ [	f,		F,		minus,		minus		] };
@@ -559,7 +559,7 @@ xkb_symbols "ru_custom" {
         type[Group2]="FOUR_LEVEL_FIXED" };
 
     // 2. row
-    key <AC01>	{ symbols[Group2]=[ Cyrillic_ef,        Cyrillic_EF,    asterisk,       asterisk   ] };
+    key <AC01>	{ symbols[Group2]=[ Cyrillic_ef,        Cyrillic_EF,    asterisk,       period     ] };
     key <AC02>	{ symbols[Group2]=[ Cyrillic_yeru,      Cyrillic_YERU,  plus,           plus       ] };
     key <AC03>	{ symbols[Group2]=[ Cyrillic_ve,        Cyrillic_VE,    numbersign,     numbersign ] };
     key <AC04>	{ symbols[Group2]=[ Cyrillic_a,         Cyrillic_A,     minus,          minus      ] };

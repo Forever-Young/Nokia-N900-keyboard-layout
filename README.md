@@ -22,10 +22,11 @@ To switch layout - press Shift-Space
 Changes
 -------
 1. Changed eurosign and sterling to []
-2. Changed many Fn-SH combinations: digits to F1-F10, letters
+2. Changed many Fn-SH combinations: digits to F1-F10, letters to marks
 3. Tab, ESC, Menu, Delete
 4. Fn+Cursor - Home/End/PgUp/PgDn
-5. For russian layout
+5. Fn+Shift+a - period (for entering IP addresses while FnLock)
+6. For russian layout
    - combined Left/Up, Right/Down
    - letters on the same place as on Russian layout
    - fixed capital hardsign, yu
@@ -41,7 +42,7 @@ Layout (English)
 | SHIFT | Q  | W  | E  | R  | T  | Y  | U  | I  | O  | P  | ;  | Tab |
 |       | q  | w  | e  | r  | t  | y  | u  | i  | o  | p  | ,  | BKSP|
 |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
-| Fn+SH | *  | +  | #  | -  | _  | ~  | {  | }  | !  | |  |    | MENU|
+| Fn+SH | .  | +  | #  | -  | _  | ~  | {  | }  | !  | |  |    | MENU|
 | Fn    | *  | +  | #  | -  | _  | (  | )  | &  | !  | ?  |PgUp| ESC |
 | SHIFT | A  | S  | D  | F  | G  | H  | J  | K  | L  | :  |    | RET |
 |       | a  | s  | d  | f  | g  | h  | j  | k  | l  | .  | Up | RET |
@@ -62,7 +63,7 @@ Layout (Russian)
 | SHIFT | Й  | Ц  | У  | К  | Е  | Н  | Г  | Г  | Ш  | З  | Х  | Tab |
 |       | й  | ц  | у  | к  | е  | н  | г  | г  | ш  | з  | х  | BKSP|
 |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
-| Fn+SH | *  | +  | #  | -  | _  | ~  | {  | }  | !  | :  | ,  | MENU|
+| Fn+SH | .  | +  | #  | -  | _  | ~  | {  | }  | !  | :  | ,  | MENU|
 | Fn    | *  | +  | #  | -  | _  | (  | )  | &  | !  | ?  | .  | ESC |
 | SHIFT | Ф  | Ы  | В  | А  | П  | Р  | О  | Л  | Ж  | Ж  | Э  | RET |
 |       | ф  | ы  | в  | а  | п  | р  | о  | л  | д  | ж  | э  | RET |
@@ -76,7 +77,7 @@ Layout (Russian)
 
 TODO
 ----
-1. Something for Fn-SH-a, s, d, f, g, l?
+1. Something for Fn-SH-s, d, f, g, l?
 2. Keyboard layout applet for status-menu
 
 Credits
