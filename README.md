@@ -23,7 +23,7 @@ Changes
 -------
 1. Changed eurosign and sterling to []
 2. Changed many Fn-SH combinations: digits to F1-F10, letters
-3. Tab, ESC, Menu
+3. Tab, ESC, Menu, Delete
 4. Fn+Cursor - Home/End/PgUp/PgDn
 5. For russian layout
    - combined Left/Up, Right/Down
@@ -37,8 +37,8 @@ Layout (English)
 <pre>
 |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
 | Fn+SH | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10| F11| F12 |
-| Fn    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | =  | Tab |
-| SHIFT | Q  | W  | E  | R  | T  | Y  | U  | I  | O  | P  | ;  | Del |
+| Fn    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | =  | Del |
+| SHIFT | Q  | W  | E  | R  | T  | Y  | U  | I  | O  | P  | ;  | Tab |
 |       | q  | w  | e  | r  | t  | y  | u  | i  | o  | p  | ,  | BKSP|
 |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
 | Fn+SH | *  | +  | #  | -  | _  | ~  | {  | }  | !  | |  |    | MENU|
@@ -58,8 +58,8 @@ Layout (Russian)
 <pre>
 |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
 | Fn+SH | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10| Ъ  | F12 |
-| Fn    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | ъ  | Tab |
-| SHIFT | Й  | Ц  | У  | К  | Е  | Н  | Г  | Г  | Ш  | З  | Х  | Del |
+| Fn    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | ъ  | Del |
+| SHIFT | Й  | Ц  | У  | К  | Е  | Н  | Г  | Г  | Ш  | З  | Х  | Tab |
 |       | й  | ц  | у  | к  | е  | н  | г  | г  | ш  | з  | х  | BKSP|
 |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
 | Fn+SH | *  | +  | #  | -  | _  | ~  | {  | }  | !  | :  | ,  | MENU|

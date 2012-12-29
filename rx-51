@@ -507,7 +507,7 @@ xkb_symbols "ru_custom" {
     key <AD09>	{ [	o,		O,		9,		F9		] };
     key <AD10>	{ [	p,		P,		0,		F10		] };
     key <AB08>	{ [	comma,		semicolon,	equal,		F11		] };
-    key <BKSP>	{ [	BackSpace,	Delete,         Tab,	        F12             ] };
+    key <BKSP>	{ [	BackSpace,	Tab,            KP_Delete,      F12             ] };
 
     // 2. row
     key <AC01>	{ [	a,		A,		asterisk,	asterisk	] };
