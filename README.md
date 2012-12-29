@@ -76,9 +76,8 @@ Layout (Russian)
 
 TODO
 ----
-1. Fix Fn-SH-h - dead_tilde
-2. Something for Fn-SH-a, s, d, f, g, l?
-3. Keyboard layout applet for status-menu
+1. Something for Fn-SH-a, s, d, f, g, l?
+2. Keyboard layout applet for status-menu
 
 Credits
 -------
